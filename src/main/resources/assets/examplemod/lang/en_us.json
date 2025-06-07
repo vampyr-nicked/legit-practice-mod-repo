@@ -1,0 +1,52 @@
+{
+  "item.examplemod.avianfeather": "Avian Feather",
+
+  "item.examplemod.chisel": "Chisel",
+
+  "item.examplemod.blooberries": "Blooberries",
+
+  "item.examplemod.firewood": "Firewood",
+
+  "item.examplemod.emberwood": "Emberwood",
+
+  "item.examplemod.echowood": "Echowood",
+
+  "item.examplemod.missingwood": "Missingwood",
+
+  "block.examplemod.plastic_tiles": "Plastic Tiles",
+  "block.examplemod.plastic_tile": "Plastic Tile",
+  "block.examplemod.plastic_tiles_stairs": "Plastic Tiles Stairs",
+  "block.examplemod.plastic_tiles_slab": "Plastic Tiles Slab",
+  "block.examplemod.plastic_button": "Plastic Button",
+  "block.examplemod.plastic_pressure_plate": "Plastic Pressure Plate",
+  "block.examplemod.plastic_door": "Plastic Door",
+  "block.examplemod.plastic_trapdoor": "Plastic Trapdoor",
+
+  "item.examplemod.hemophyte_clump": "Hemophyte Clump",
+  "item.examplemod.hemophyte_ingot": "Hemophyte Ingot",
+
+  "block.examplemod.verdigris_bricks": "Verdigris Bricks",
+  "block.examplemod.verdigris_slim_bricks": "Verdigris Slim Bricks",
+
+  "block.examplemod.eco_tiles": "Eco Tiles",
+
+  "block.examplemod.aqua_tiles": "Aqua Tiles",
+
+  "block.examplemod.magma_tiles": "Magma Tiles",
+
+  "tooltip.examplemod.chisel_tooltip": "Chips away at certain stone-type blocks to convert them into brick variants.",
+
+  "block.examplemod.aerostone": "Aerostone",
+
+  "block.examplemod.geostone": "Geostone",
+
+  "block.examplemod.cloud_block": "Cloud Block",
+
+  "block.examplemod.dense_cloud_block": "Dense Cloud Block",
+
+  "creativetab.examplemod.aviary_advancements": "Aviary Advancements",
+
+  "creativetab.examplemod.aviary_tools": "Aviary Tools",
+
+  "creativetab.examplemod.aviary_building_blocks": "Aviary Building Blocks"
+}

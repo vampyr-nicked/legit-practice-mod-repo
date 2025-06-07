@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "examplemod:block/plastic_tiles_slab"
+    },
+    "type=double": {
+      "model": "examplemod:block/plastic_tiles"
+    },
+    "type=top": {
+      "model": "examplemod:block/plastic_tiles_slab_top"
+    }
+  }
+}
