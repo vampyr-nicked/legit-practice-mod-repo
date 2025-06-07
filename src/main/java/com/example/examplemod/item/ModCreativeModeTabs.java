@@ -55,10 +55,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.AQUA_TILES.get());
                         output.accept(ModBlocks.MAGMA_TILES.get());
 
-                        output.accept(ModBlocks.VERDIGRIS_BRICKS.get());
-                        output.accept(ModBlocks.VERDIGRIS_BRICK_STAIRS.get());
-                        output.accept(ModBlocks.VERDIGRIS_BRICK_SLAB.get());
                         output.accept(ModBlocks.VERDIGRIS_SLIM_BRICKS.get());
+                        output.accept(ModBlocks.VERDIGRIS_BRICKS.get());
+                        output.accept(ModBlocks.VERDIGRIS_BRICK_SLAB.get());
+                        output.accept(ModBlocks.VERDIGRIS_BRICK_STAIRS.get());
 
                         output.accept(ModBlocks.CLOUD_BLOCK.get());
                         output.accept(ModBlocks.DENSE_CLOUD_BLOCK.get());

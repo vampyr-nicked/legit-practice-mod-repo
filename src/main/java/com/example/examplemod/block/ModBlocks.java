@@ -22,63 +22,63 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> AEROSTONE = registerBlock("aerostone",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .jumpFactor(3f).requiresCorrectToolForDrops().sound(SoundType.STONE).destroyTime(1)));
+                    .jumpFactor(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> CLOUD_BLOCK = registerBlock("cloud_block",
             () -> new CloudBlock(BlockBehaviour.Properties.of()
-                    .requiresCorrectToolForDrops().sound(SoundType.WOOL).jumpFactor(1f).destroyTime(1)));
+                    .requiresCorrectToolForDrops().sound(SoundType.WOOL).jumpFactor(6f)));
     public static final RegistryObject<Block> DENSE_CLOUD_BLOCK = registerBlock("dense_cloud_block",
             () -> new DenseCloudBlock(BlockBehaviour.Properties.of()
-                    .requiresCorrectToolForDrops().sound(SoundType.WOOL).jumpFactor(2f).destroyTime(2)));
+                    .requiresCorrectToolForDrops().sound(SoundType.WOOL).jumpFactor(6f)));
 
     public static final RegistryObject<Block> GEOSTONE = registerBlock("geostone",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .jumpFactor(0f).requiresCorrectToolForDrops().sound(SoundType.STONE).speedFactor(1.5f).destroyTime(1)));
+                    .jumpFactor(0f).requiresCorrectToolForDrops().sound(SoundType.STONE).speedFactor(1.5f)));
 
     public static final RegistryObject<Block> VERDIGRIS_BRICKS = registerBlock("verdigris_bricks",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .requiresCorrectToolForDrops().sound(SoundType.STONE).destroyTime(3)));
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> VERDIGRIS_SLIM_BRICKS = registerBlock("verdigris_slim_bricks",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .requiresCorrectToolForDrops().sound(SoundType.STONE).destroyTime(3)));
-    public static final RegistryObject<Block> VERDIGRIS_BRICK_STAIRS = registerBlock("verdegris_brick_stairs",
-            () -> new StairBlock(() -> ModBlocks.VERDIGRIS_BRICK_STAIRS.get().defaultBlockState(),
-                    BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE).destroyTime(3)));
-    public static final RegistryObject<Block> VERDIGRIS_BRICK_SLAB = registerBlock("verdegris_brick_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE).destroyTime(1)));
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE).destroyTime(2)));
+    public static final RegistryObject<Block> VERDIGRIS_BRICK_SLAB = registerBlock("verdigris_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> VERDIGRIS_BRICK_STAIRS = registerBlock("verdigris_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.VERDIGRIS_BRICKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> PLASTIC_TILES_STAIRS = registerBlock("plastic_tiles_stairs",
             () -> new StairBlock(() -> ModBlocks.PLASTIC_TILES.get().defaultBlockState(),
-                    BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE).destroyTime(1)));
+                    BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> PLASTIC_TILES = registerBlock("plastic_tiles",
-            () -> new Block(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE).destroyTime(1)));
+            () -> new Block(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> PLASTIC_TILE = registerBlock("plastic_tile",
-            () -> new Block(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE).destroyTime(1)));
+            () -> new Block(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> PLASTIC_TILES_SLAB = registerBlock("plastic_tiles_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE).destroyTime(1)));
+            () -> new SlabBlock(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> PLASTIC_BUTTON = registerBlock("plastic_button",
-            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BUTTON).requiresCorrectToolForDrops().sound(SoundType.STONE).destroyTime(1),
+            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BUTTON).requiresCorrectToolForDrops().sound(SoundType.STONE),
                     BlockSetType.IRON, 10, true));
     public static final RegistryObject<Block> PLASTIC_PRESSURE_PLATE = registerBlock("plastic_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING,
-                    BlockBehaviour.Properties.copy(Blocks.STONE_PRESSURE_PLATE).requiresCorrectToolForDrops().sound(SoundType.STONE).destroyTime(1),
+                    BlockBehaviour.Properties.copy(Blocks.STONE_PRESSURE_PLATE).requiresCorrectToolForDrops().sound(SoundType.STONE),
                     BlockSetType.IRON));
 
     public static final RegistryObject<Block> PLASTIC_DOOR = registerBlock("plastic_door",
-            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_DOOR).requiresCorrectToolForDrops().sound(SoundType.STONE).noOcclusion().destroyTime(1),
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_DOOR).requiresCorrectToolForDrops().sound(SoundType.STONE).noOcclusion(),
                     BlockSetType.OAK));
     public static final RegistryObject<Block> PLASTIC_TRAPDOOR = registerBlock("plastic_trapdoor",
-            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_DOOR).requiresCorrectToolForDrops().destroyTime(1).sound(SoundType.STONE).noOcclusion(),
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_DOOR).requiresCorrectToolForDrops().sound(SoundType.STONE).noOcclusion(),
                     BlockSetType.OAK));
 
     public static final RegistryObject<Block> ECO_TILES = registerBlock("eco_tiles",
-            () -> new Block(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE).destroyTime(1)));
+            () -> new Block(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> AQUA_TILES = registerBlock("aqua_tiles",
-            () -> new Block(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE).destroyTime(1)));
+            () -> new Block(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> MAGMA_TILES = registerBlock("magma_tiles",
-            () -> new Block(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE).destroyTime(1)));
+            () -> new Block(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

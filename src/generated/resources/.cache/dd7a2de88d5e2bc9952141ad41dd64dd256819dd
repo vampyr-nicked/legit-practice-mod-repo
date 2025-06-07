@@ -1,4 +1,4 @@
-// 1.20.1	2025-06-07T06:31:52.4461967	Item Models: examplemod
+// 1.20.1	2025-06-07T08:50:35.9179486	Item Models: examplemod
 ab92c147a0801d2553e31cda1ad611fc0219fd77 assets/examplemod/models/item/avianfeather.json
 fcf3080b0b671f5e41f1742daf07bfe0437d75c0 assets/examplemod/models/item/blooberries.json
 20045cddc870765908347e28ce1e009d78a20300 assets/examplemod/models/item/chisel.json
@@ -13,5 +13,5 @@ e91c35b32844faaba0f7ab57d110fce923fdd464 assets/examplemod/models/item/hemophyte
 a0c55b9136c046d7dbfb717ddfbd7547005a0af6 assets/examplemod/models/item/plastic_pressure_plate.json
 787c81e2b6f0ad8a425b69bc7ed9bbfc027c7e6f assets/examplemod/models/item/plastic_tiles_slab.json
 7e8f6ece62e95a89606704405a02fcf77a02077a assets/examplemod/models/item/plastic_tiles_stairs.json
-18b464fd24730a644c67d48bb03bace85c3ea431 assets/examplemod/models/item/verdegris_brick_slab.json
-387ef98db3680714bfd619161df98c25924795ff assets/examplemod/models/item/verdegris_brick_stairs.json
+2813763c4e7a876b10510cab6095ab08e7095b2c assets/examplemod/models/item/verdigris_brick_slab.json
+c0f1f2f1c3c2f50d90601643a0b8f6104ca4c984 assets/examplemod/models/item/verdigris_brick_stairs.json
