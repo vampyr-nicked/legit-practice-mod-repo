@@ -1,4 +1,4 @@
-// 1.20.1	2025-06-06T23:23:13.0762116	Loot Tables
+// 1.20.1	2025-06-07T06:31:52.4441981	Loot Tables
 230a78f86a7c68fc19b8d9b21f20049a096ac2f5 data/examplemod/loot_tables/blocks/aerostone.json
 f035f8e29c175dc379eb2ab36e690d201cbbb88a data/examplemod/loot_tables/blocks/aqua_tiles.json
 47f1b23aa71b817fec1f32f8ee47f88e91d1c53d data/examplemod/loot_tables/blocks/cloud_block.json
@@ -14,5 +14,7 @@ ba70c5fd1efe82a7a75ad5d943c9463bfb8babb2 data/examplemod/loot_tables/blocks/plas
 3fa9220bff8cd3e4f3e41ffd72f793cec1c7534d data/examplemod/loot_tables/blocks/plastic_tiles_slab.json
 dfe695210cbee438ac40b3a3962587cd81d32202 data/examplemod/loot_tables/blocks/plastic_tiles_stairs.json
 868eefeab11ae26fccd34b32606ca0c1bb6e0f8e data/examplemod/loot_tables/blocks/plastic_trapdoor.json
+b81262e79a502703f2cf52f5a50717d796f25a4d data/examplemod/loot_tables/blocks/verdegris_brick_slab.json
+8f678cd9f75f0f5f62fe848f8422670897df5f69 data/examplemod/loot_tables/blocks/verdegris_brick_stairs.json
 ebe9d825e8c6e5491b3f2b118aba681d64f6fa8f data/examplemod/loot_tables/blocks/verdigris_bricks.json
 9e1f5b3f8360cd9a8bcb73c0e7e2ba8dfe7022b7 data/examplemod/loot_tables/blocks/verdigris_slim_bricks.json

@@ -24,10 +24,13 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.ECO_TILES);
         blockWithItem(ModBlocks.AQUA_TILES);
         blockWithItem(ModBlocks.MAGMA_TILES);
-        blockWithItem(ModBlocks.PLASTIC_TILES);
+
         blockWithItem(ModBlocks.VERDIGRIS_BRICKS);
         blockWithItem(ModBlocks.VERDIGRIS_SLIM_BRICKS);
+        stairsBlock(((StairBlock) ModBlocks.VERDIGRIS_BRICK_STAIRS.get()), blockTexture(ModBlocks.VERDIGRIS_BRICKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.VERDIGRIS_BRICK_SLAB.get()), blockTexture(ModBlocks.VERDIGRIS_BRICKS.get()), blockTexture(ModBlocks.VERDIGRIS_BRICKS.get()));
 
+        blockWithItem(ModBlocks.PLASTIC_TILES);
         blockWithItem(ModBlocks.PLASTIC_TILE);
         stairsBlock(((StairBlock) ModBlocks.PLASTIC_TILES_STAIRS.get()), blockTexture(ModBlocks.PLASTIC_TILES.get()));
         slabBlock(((SlabBlock) ModBlocks.PLASTIC_TILES_SLAB.get()), blockTexture(ModBlocks.PLASTIC_TILES.get()), blockTexture(ModBlocks.PLASTIC_TILES.get()));
