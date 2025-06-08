@@ -47,15 +47,17 @@ public class ModBlocks {
             () -> new StairBlock(() -> ModBlocks.VERDIGRIS_BRICKS.get().defaultBlockState(),
                     BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
+    public static final RegistryObject<Block> BLOCK_OF_HEMOPHYTE = registerBlock("block_of_hemophyte",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .requiresCorrectToolForDrops().sound(SoundType.METAL).destroyTime(1).strength(1)));
+
     public static final RegistryObject<Block> PLASTIC_TILES_STAIRS = registerBlock("plastic_tiles_stairs",
             () -> new StairBlock(() -> ModBlocks.PLASTIC_TILES.get().defaultBlockState(),
                     BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE)));
-
     public static final RegistryObject<Block> PLASTIC_TILES = registerBlock("plastic_tiles",
             () -> new Block(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> PLASTIC_TILE = registerBlock("plastic_tile",
             () -> new Block(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE)));
-
     public static final RegistryObject<Block> PLASTIC_TILES_SLAB = registerBlock("plastic_tiles_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> PLASTIC_BUTTON = registerBlock("plastic_button",
@@ -65,7 +67,6 @@ public class ModBlocks {
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING,
                     BlockBehaviour.Properties.copy(Blocks.STONE_PRESSURE_PLATE).requiresCorrectToolForDrops().sound(SoundType.STONE),
                     BlockSetType.IRON));
-
     public static final RegistryObject<Block> PLASTIC_DOOR = registerBlock("plastic_door",
             () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_DOOR).requiresCorrectToolForDrops().sound(SoundType.STONE).noOcclusion(),
                     BlockSetType.OAK));
@@ -79,6 +80,11 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final RegistryObject<Block> MAGMA_TILES = registerBlock("magma_tiles",
             () -> new Block(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> BLUEPRINT = registerBlock("blueprint",
+            () -> new Block(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE).destroyTime(20)));
+    public static final RegistryObject<Block> BLUEPRINT_GRID = registerBlock("blueprint_grid",
+            () -> new Block(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().sound(SoundType.STONE).destroyTime(20)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

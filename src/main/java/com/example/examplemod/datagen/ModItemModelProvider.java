@@ -33,8 +33,14 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.CHISEL);
         simpleItem(ModItems.BLOOBERRIES);
         simpleItem(ModItems.MISSINGWOOD);
+
         simpleItem(ModItems.HEMOPHYTE_CLUMP);
         simpleItem(ModItems.HEMOPHYTE_INGOT);
+        handheldItem(ModItems.HEMOPHYTE_SWORD);
+        handheldItem(ModItems.HEMOPHYTE_PICKAXE);
+        handheldItem(ModItems.HEMOPHYTE_AXE);
+        handheldItem(ModItems.HEMOPHYTE_SHOVEL);
+        handheldItem(ModItems.HEMOPHYTE_HOE);
 
         simpleBlockItem(ModBlocks.PLASTIC_DOOR);
 
@@ -45,6 +51,10 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         evenSimplerBlockItem(ModBlocks.VERDIGRIS_BRICK_STAIRS);
         evenSimplerBlockItem(ModBlocks.VERDIGRIS_BRICK_SLAB);
+
+        simpleItem(ModItems.TEDDYBEAR);
+
+
 
 
     }
@@ -74,4 +84,9 @@ public class ModItemModelProvider extends ItemModelProvider {
     }
 
 
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer0",
+                new ResourceLocation(ExampleMod.MODID,"item/" + item.getId().getPath()));
+    }
 }

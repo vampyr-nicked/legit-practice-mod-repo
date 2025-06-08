@@ -33,6 +33,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block -> createSlabItemTable(ModBlocks.VERDIGRIS_BRICK_SLAB.get()));
         this.dropSelf(ModBlocks.VERDIGRIS_BRICK_STAIRS.get());
 
+        this.dropSelf(ModBlocks.BLOCK_OF_HEMOPHYTE.get());
+
         this.dropSelf(ModBlocks.PLASTIC_TILE.get());
         this.dropSelf(ModBlocks.PLASTIC_BUTTON.get());
         this.dropSelf(ModBlocks.PLASTIC_TRAPDOOR.get());
@@ -43,6 +45,9 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block -> createSlabItemTable(ModBlocks.PLASTIC_TILES_SLAB.get()));
         this.add(ModBlocks.PLASTIC_DOOR.get(),
                 block -> createDoorTable(ModBlocks.PLASTIC_DOOR.get()));
+
+        this.dropSelf(ModBlocks.BLUEPRINT.get());
+        this.dropSelf(ModBlocks.BLUEPRINT_GRID.get());
     }
 
     @Override

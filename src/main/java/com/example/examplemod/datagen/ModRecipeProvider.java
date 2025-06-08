@@ -2,6 +2,7 @@ package com.example.examplemod.datagen;
 
 import com.example.examplemod.ExampleMod;
 import com.example.examplemod.block.ModBlocks;
+import com.example.examplemod.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.Item;
@@ -31,7 +32,16 @@ public class ModRecipeProvider extends RecipeProvider {
                 .unlockedBy(getHasName(ModBlocks.CLOUD_BLOCK.get()), has(ModBlocks.DENSE_CLOUD_BLOCK.get()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BLOCK_OF_HEMOPHYTE.get())
+                .pattern("###")
+                .pattern("###")
+                .pattern("###")
+                .define('#', ModItems.HEMOPHYTE_INGOT.get())
+                .unlockedBy(getHasName(ModItems.HEMOPHYTE_INGOT.get()), has(ModBlocks.BLOCK_OF_HEMOPHYTE.get()))
+                .save(pWriter);
+
     }
+
 
 
 

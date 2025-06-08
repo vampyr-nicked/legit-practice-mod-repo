@@ -24,12 +24,15 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.ECO_TILES);
         blockWithItem(ModBlocks.AQUA_TILES);
         blockWithItem(ModBlocks.MAGMA_TILES);
-        blockWithItem(ModBlocks.PLASTIC_TILES);
+
+        blockWithItem(ModBlocks.BLOCK_OF_HEMOPHYTE);
+
         blockWithItem(ModBlocks.VERDIGRIS_BRICKS);
         blockWithItem(ModBlocks.VERDIGRIS_SLIM_BRICKS);
         stairsBlock(((StairBlock) ModBlocks.VERDIGRIS_BRICK_STAIRS.get()), blockTexture(ModBlocks.VERDIGRIS_BRICKS.get()));
         slabBlock(((SlabBlock) ModBlocks.VERDIGRIS_BRICK_SLAB.get()), blockTexture(ModBlocks.VERDIGRIS_BRICKS.get()), blockTexture(ModBlocks.VERDIGRIS_BRICKS.get()));
 
+        blockWithItem(ModBlocks.PLASTIC_TILES);
         blockWithItem(ModBlocks.PLASTIC_TILE);
         stairsBlock(((StairBlock) ModBlocks.PLASTIC_TILES_STAIRS.get()), blockTexture(ModBlocks.PLASTIC_TILES.get()));
         slabBlock(((SlabBlock) ModBlocks.PLASTIC_TILES_SLAB.get()), blockTexture(ModBlocks.PLASTIC_TILES.get()), blockTexture(ModBlocks.PLASTIC_TILES.get()));
@@ -37,6 +40,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.PLASTIC_TRAPDOOR.get()), modLoc("block/plastic_tile"), true ,"cutout");
         doorBlockWithRenderType(((DoorBlock) ModBlocks.PLASTIC_DOOR.get()), modLoc("block/plastic_door_bottom"), modLoc("block/plastic_door_top"), "cutout");
         pressurePlateBlock(((PressurePlateBlock) ModBlocks.PLASTIC_PRESSURE_PLATE.get()), blockTexture(ModBlocks.PLASTIC_TILE.get()));
+
+        blockWithItem(ModBlocks.BLUEPRINT);
+        blockWithItem(ModBlocks.BLUEPRINT_GRID);
     }
 
 

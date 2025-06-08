@@ -1,6 +1,9 @@
-// 1.20.1	2025-06-07T08:50:35.9149499	Loot Tables
+// 1.20.1	2025-06-08T03:22:13.5599487	Loot Tables
 230a78f86a7c68fc19b8d9b21f20049a096ac2f5 data/examplemod/loot_tables/blocks/aerostone.json
 f035f8e29c175dc379eb2ab36e690d201cbbb88a data/examplemod/loot_tables/blocks/aqua_tiles.json
+037daff27d0481e0bf8bd6e7c72256d8a001f050 data/examplemod/loot_tables/blocks/block_of_hemophyte.json
+27e99a0361e09f6b89ced9c836d74dfc34ed21df data/examplemod/loot_tables/blocks/blueprint.json
+4ebe703ef3ffb07a3d112931d67c1df0d0696b46 data/examplemod/loot_tables/blocks/blueprint_grid.json
 47f1b23aa71b817fec1f32f8ee47f88e91d1c53d data/examplemod/loot_tables/blocks/cloud_block.json
 572367b7d456e88de29826fe0b8827465fb7f65a data/examplemod/loot_tables/blocks/dense_cloud_block.json
 419c5988a4c6501c517fdd3b33468e86db9b9ce9 data/examplemod/loot_tables/blocks/eco_tiles.json

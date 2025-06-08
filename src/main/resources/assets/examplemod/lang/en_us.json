@@ -5,12 +5,11 @@
 
   "item.examplemod.blooberries": "Blooberries",
 
+  "item.examplemod.teddy_bear": "Teddy Bear",
+
   "item.examplemod.firewood": "Firewood",
-
   "item.examplemod.emberwood": "Emberwood",
-
   "item.examplemod.echowood": "Echowood",
-
   "item.examplemod.missingwood": "Missingwood",
 
   "block.examplemod.plastic_tiles": "Plastic Tiles",
@@ -24,6 +23,12 @@
 
   "item.examplemod.hemophyte_clump": "Hemophyte Clump",
   "item.examplemod.hemophyte_ingot": "Hemophyte Ingot",
+  "item.examplemod.hemophyte_sword": "Hemophyte Sword",
+  "item.examplemod.hemophyte_pickaxe": "Hemophyte Pickaxe",
+  "item.examplemod.hemophyte_axe": "Hemophyte Axe",
+  "item.examplemod.hemophyte_hoe": "Hemophyte Hoe",
+  "item.examplemod.hemophyte_shovel": "Hemophyte Shovel",
+  "block.examplemod.block_of_hemophyte": "Block of Hemophyte",
 
   "block.examplemod.verdigris_bricks": "Verdigris Bricks",
   "block.examplemod.verdigris_slim_bricks": "Verdigris Slim Bricks",
@@ -31,24 +36,21 @@
   "block.examplemod.verdigris_brick_stairs": "Verdigris Brick Stairs",
 
   "block.examplemod.eco_tiles": "Eco Tiles",
-
   "block.examplemod.aqua_tiles": "Aqua Tiles",
-
   "block.examplemod.magma_tiles": "Magma Tiles",
 
   "tooltip.examplemod.chisel_tooltip": "Chips away at certain stone-type blocks to convert them into brick variants.",
 
   "block.examplemod.aerostone": "Aerostone",
-
   "block.examplemod.geostone": "Geostone",
 
   "block.examplemod.cloud_block": "Cloud Block",
-
   "block.examplemod.dense_cloud_block": "Dense Cloud Block",
 
+  "block.examplemod.blueprint": "Blueprint",
+  "block.examplemod.blueprint_grid": "Blueprint Grid",
+
   "creativetab.examplemod.aviary_advancements": "Aviary Advancements",
-
   "creativetab.examplemod.aviary_tools": "Aviary Tools",
-
   "creativetab.examplemod.aviary_building_blocks": "Aviary Building Blocks"
 }

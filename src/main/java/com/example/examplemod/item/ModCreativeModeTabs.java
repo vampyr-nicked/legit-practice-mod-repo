@@ -26,6 +26,8 @@ public class ModCreativeModeTabs {
 
                 output.accept(ModItems.HEMOPHYTE_CLUMP.get());
                 output.accept(ModItems.HEMOPHYTE_INGOT.get());
+
+                output.accept(ModItems.TEDDYBEAR.get());
             }).build());
 
     public static final RegistryObject<CreativeModeTab> AVIARY_TOOLS = CREATIVE_MODE_TABS.register("aviary_tools",
@@ -37,6 +39,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.EMBERWOOD.get());
                         output.accept(ModItems.ECHOWOOD.get());
                         output.accept(ModItems.MISSINGWOOD.get());
+
+                        output.accept(ModItems.HEMOPHYTE_SWORD.get());
+                        output.accept(ModItems.HEMOPHYTE_PICKAXE.get());
+                        output.accept(ModItems.HEMOPHYTE_AXE.get());
+                        output.accept(ModItems.HEMOPHYTE_SHOVEL.get());
+                        output.accept(ModItems.HEMOPHYTE_HOE.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> AVIARY_BUILDING_BLOCKS = CREATIVE_MODE_TABS.register("aviary_building_blocks",
@@ -59,6 +67,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.VERDIGRIS_BRICKS.get());
                         output.accept(ModBlocks.VERDIGRIS_BRICK_SLAB.get());
                         output.accept(ModBlocks.VERDIGRIS_BRICK_STAIRS.get());
+
+                        output.accept(ModBlocks.BLOCK_OF_HEMOPHYTE.get());
 
                         output.accept(ModBlocks.CLOUD_BLOCK.get());
                         output.accept(ModBlocks.DENSE_CLOUD_BLOCK.get());

@@ -1,17 +1,23 @@
-// 1.20.1	2025-06-07T08:50:35.9179486	Item Models: examplemod
+// 1.20.1	2025-06-08T02:55:59.5955562	Item Models: examplemod
 ab92c147a0801d2553e31cda1ad611fc0219fd77 assets/examplemod/models/item/avianfeather.json
 fcf3080b0b671f5e41f1742daf07bfe0437d75c0 assets/examplemod/models/item/blooberries.json
 20045cddc870765908347e28ce1e009d78a20300 assets/examplemod/models/item/chisel.json
 32c228eeb0eea32fd92a5e3c3dbea763d28dc04d assets/examplemod/models/item/echowood.json
 32f33e13b40b02e12af1f7dee6eff8cf89f383a8 assets/examplemod/models/item/emberwood.json
 b6b2a04326fcb777bdd0d8be0ec2711c7bc6c5ba assets/examplemod/models/item/firewood.json
+a5275065c4fa0efed7b78962042230b36b5a9234 assets/examplemod/models/item/hemophyte_axe.json
 e91c35b32844faaba0f7ab57d110fce923fdd464 assets/examplemod/models/item/hemophyte_clump.json
+0dfe2e2a0677703ba8842efe1d23571c616b6703 assets/examplemod/models/item/hemophyte_hoe.json
 9501dbac4e08a5182ff12d8885983b50498544f5 assets/examplemod/models/item/hemophyte_ingot.json
+023e7237739e61f350231576a7a6a88277e760ca assets/examplemod/models/item/hemophyte_pickaxe.json
+ae04d8f924dfff711bacec3175d40dc1fceff7c6 assets/examplemod/models/item/hemophyte_shovel.json
+b2099192966f5a3e93366fc274704b195e5a47e4 assets/examplemod/models/item/hemophyte_sword.json
 03fadeb30b9c289412d4ebb05ba288038bdfed3a assets/examplemod/models/item/missingwood.json
 9e02958e14e7135ae82014ec8eb632496d9c8b56 assets/examplemod/models/item/plastic_button.json
 811fb9097cfa175138c35d779b9d944a5a128ea1 assets/examplemod/models/item/plastic_door.json
 a0c55b9136c046d7dbfb717ddfbd7547005a0af6 assets/examplemod/models/item/plastic_pressure_plate.json
 787c81e2b6f0ad8a425b69bc7ed9bbfc027c7e6f assets/examplemod/models/item/plastic_tiles_slab.json
 7e8f6ece62e95a89606704405a02fcf77a02077a assets/examplemod/models/item/plastic_tiles_stairs.json
+41a24070ab72e7605a53b38a099a912e0a19d1d8 assets/examplemod/models/item/teddy_bear.json
 2813763c4e7a876b10510cab6095ab08e7095b2c assets/examplemod/models/item/verdigris_brick_slab.json
 c0f1f2f1c3c2f50d90601643a0b8f6104ca4c984 assets/examplemod/models/item/verdigris_brick_stairs.json
