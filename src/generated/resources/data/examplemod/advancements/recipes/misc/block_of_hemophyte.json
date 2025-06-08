@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_hemophyte_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "examplemod:block_of_hemophyte"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "examplemod:block_of_hemophyte"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_hemophyte_ingot",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "examplemod:block_of_hemophyte"
+    ]
+  },
+  "sends_telemetry_event": false
+}

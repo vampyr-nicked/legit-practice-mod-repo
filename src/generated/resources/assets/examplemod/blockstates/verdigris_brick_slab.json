@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "examplemod:block/verdigris_brick_slab"
+    },
+    "type=double": {
+      "model": "examplemod:block/verdigris_bricks"
+    },
+    "type=top": {
+      "model": "examplemod:block/verdigris_brick_slab_top"
+    }
+  }
+}
